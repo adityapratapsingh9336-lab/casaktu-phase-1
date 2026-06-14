@@ -1,0 +1,23 @@
+﻿<USER_REQUEST>
+in research there should be sub sections that are, alonng with cintent within it are:
+
+Centre for Advanced Studies is an in-campus research driven institute established by Dr. A.P.J Abdul Kalam Technical University Lucknow to impart state of the art education to post graduate students and to facilitate quality research work in the emerging areas of Engineering and Technology.
+
+The Institute targets impactful research and innovations in the broad areas of Computer Science and Engineering, Mechatronics, Nanotechnology, Manufacturing Technology and Automation, and Energy Science and Technology.
+
+The Institute is well equipped with state-of-the-art laboratories like Machine Learning Lab installed with Nvidia GPUs, Cybercity Lab for working on cyber security threats in a smart city environment, Google Developers Codelabs established by Google, IoT Lab, Linux Lab, Sensors drives and control Lab, 3D printing Lab with the facilities of Fused Deposition Modeling and Multi Jet printing, Industrial Automation Lab for facilitate complete automation, Industrial robotic center, Design and simulation center, Tribology Lab, Materials Chemistry and Synthesis Laboratory, Micro and Nano Characterization facility, Nano fabrication facility, Device testing facility, Electrochemical Energy Storage Lab, Battery testing facility, Photovoltaics and solar energy lab, and embedded system lab. These facilities provide for research and innovations in interdisciplinary areas of Engineering and Technology to the interested faculty and students of the University promoting growth and progress of the Institute through collaboration by offering training, internships, short term courses, and research projects.
+
+1.Overview:
+Rewards: The Institute recognises meritorious students with a gold medal for Best M.Tech. Dissertation in each department and a cash prize for research publication in an SCI indexed journal every academic year.
+
+Financial support: Expenses incurred by the students while attending conference, workshop, short
+<truncated 45215 bytes>
+58.2021.9589014
+      Sudhir Kumar Rajput, Abhishek Kaushal, Rabesh Kumar Singh, Anuj Kumar Sharma. “A Study and Fabrication of SMA based 3D Printed Adaptive Gripper”. IEEE – 1st International Conference on Smart Technologies, Communication & Robotics (ICSTCR), 09 – 10 October 2021, Bannari Amman Institute of Technology, Sathyamangalam, Erode, Tamil Nadu, India, pp 299-303, ISBN 978-1-6654-1806-5/21 (Published in IEEE Xplore Digital Library) (Scopus). DOI: 10.1109/STCR51658.2021.9588838
+      Sachin, Rabesh Kumar Singh, Anuj Kumar Sharma. “A Pin-On-Disk Study of Rail and Wheel in Dry and Mist Environments”. 12th International Conference on Materials Processing and Characterization (ICMPC), 06 - 09 October 2021, NITTTR Chandigarh (Published in E3S Web of Conferences) (Scopus). DOI: https://doi.org/10.1051/e3sconf/202130901213
+      Rishish Mishra, Vineet Dubey, Rabesh Kumar Singh, Anuj Kumar Sharma. “Prediction and modelling of nodal temperature in turning operation”. 1st International Conference on Energy, Materials Sciences & Mechanical Engineering (EMSME – 2020) October 30 - November 01, 2020 at Department of Mechanical Engineering NIT Delhi. K. Govindan et al. (eds.), Advances in Mechanical and Materials Technology, Part of the Lecture Notes in Mechanical Engineering book series (LNME). (Springer) (Scopus). https://doi.org/10.1007/978-981-16-2794-1_101
+      Akriti Singh & Malay Kishore Dutta, “Diagnosis of Ear Conditions Using Deep Learning Approach”, ICCISc 2021 - 2021 International Conference on Communication, Control and Information Sciences, 2021 Publisher : IEEE Xplore Digital Library, DOI: 10.1109/ICCISc52257.2021.9484919
+      Neha Sengar, Rakesh Chandra Joshi, and Malay Kishore Dutta, " An Efficient Artificial Intelligence-based approach for Diagnosis of Media Haze Disease", IEEE Sponsored 12th International Conference
+<truncated 44601 bytes>
+
+NOTE: The output was truncated because it was too long. Use a more targeted query or a smaller range to get the information you need.
