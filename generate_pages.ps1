@@ -778,117 +778,28 @@ $aboutContent = @"
 "@
 Generate-Page -Filename "about.html" -Title "About CAS" -Content $aboutContent
 
+
 # 9. Research
+$researchRaw = Get-Content "generated_overview.html" -Raw -Encoding UTF8
 $researchContent = @"
             <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80" class="course-banner" alt="Research Banner">
-
-            <div style="margin-bottom: 50px; text-align: center;">
-                <p style="font-size: 1.1rem; max-width: 800px; margin: 0 auto; line-height: 1.8;">CAS targets impactful research and innovations across highly specialized domains. We are equipped with state-of-the-art laboratories like NVIDIA GPU-powered AI Labs, Cybercity Labs, and 3D Printing Centers, providing 24/7 access to researchers.</p>
-            </div>
-
-            <div id="domains" style="margin-bottom: 60px;">
-                <h2 style="border-bottom: 2px solid var(--accent-light-blue); padding-bottom: 10px; margin-bottom: 30px;">Key Focus Areas</h2>
-                <div class="grid-3">
-                    <div class="glass-card">
-                        <i class="ph ph-cpu" style="font-size: 2.5rem; color: var(--accent-light-blue); margin-bottom: 15px;"></i>
-                        <h4 style="margin-bottom: 15px;">Computer Sc. & Engineering</h4>
-                        <ul style="list-style-type: disc; margin-left: 20px; font-size: 0.9rem;">
-                            <li>Artificial Intelligence (ML & DL)</li>
-                            <li>Cyber Security & IoT</li>
-                            <li>Data Science & Analytics</li>
-                            <li>Computer Vision & Cloud</li>
-                        </ul>
-                    </div>
-                    <div class="glass-card">
-                        <i class="ph ph-robot" style="font-size: 2.5rem; color: var(--accent-light-blue); margin-bottom: 15px;"></i>
-                        <h4 style="margin-bottom: 15px;">Mechatronics & Automation</h4>
-                        <ul style="list-style-type: disc; margin-left: 20px; font-size: 0.9rem;">
-                            <li>Robotics & Drones</li>
-                            <li>PLC & SCADA</li>
-                            <li>AI based systems</li>
-                            <li>Industry 4.0</li>
-                        </ul>
-                    </div>
-                    <div class="glass-card">
-                        <i class="ph ph-atom" style="font-size: 2.5rem; color: var(--accent-light-blue); margin-bottom: 15px;"></i>
-                        <h4 style="margin-bottom: 15px;">Nanotechnology & Energy</h4>
-                        <ul style="list-style-type: disc; margin-left: 20px; font-size: 0.9rem;">
-                            <li>Nanomaterial Synthesis</li>
-                            <li>MEMS/NEMS Devices</li>
-                            <li>Renewable Energy</li>
-                            <li>Energy Storage Systems</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div style="margin-bottom: 60px;">
-                <h2 style="border-bottom: 2px solid var(--accent-light-blue); padding-bottom: 10px; margin-bottom: 30px;">Funded Projects & Seminars</h2>
-                <div class="grid-2">
-                    <div>
-                        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=800&q=80" style="border-radius: 12px; box-shadow: var(--glass-shadow); margin-bottom: 20px;">
-                        <p style="line-height: 1.8;">Our faculty and students actively participate in government and industry-funded projects, driving innovation in healthcare tech, smart agriculture, and sustainable energy.</p>
-                    </div>
-                    <div class="glass-card">
-                        <h3 style="margin-bottom: 20px; color: var(--primary);">Research Environment</h3>
-                        <ul style="list-style-type: none; display: flex; flex-direction: column; gap: 15px;">
-                            <li><i class="ph ph-check-circle" style="color: var(--accent-light-blue);"></i> Cash prizes for SCI indexed journal publications</li>
-                            <li><i class="ph ph-check-circle" style="color: var(--accent-light-blue);"></i> Financial support for conferences and workshops</li>
-                            <li><i class="ph ph-check-circle" style="color: var(--accent-light-blue);"></i> Global MoUs for collaborative research</li>
-                            <li><i class="ph ph-check-circle" style="color: var(--accent-light-blue);"></i> Access to Elsevier, Springer, John Wiley e-resources</li>
-                        </ul>
-                    </div>
-                </div>
+            
+            <div style="margin-bottom: 50px;">
+                $researchRaw
             </div>
 "@
 Generate-Page -Filename "research.html" -Title "Research & Innovation" -Content $researchContent
 
 # 10. Publications
+$publicationsRaw = Get-Content "generated_publications.html" -Raw -Encoding UTF8
 $publicationsContent = @"
             <div style="margin-bottom: 40px; text-align: center;">
                 <p style="font-size: 1.1rem; max-width: 800px; margin: 0 auto;">Our scholars consistently publish high-quality research articles in impactful SCI/Scopus indexed journals and top-tier conferences.</p>
             </div>
-
-            <h2 style="border-bottom: 2px solid var(--accent-light-blue); padding-bottom: 10px; margin-bottom: 30px;">Highlighted Publications (SCI Indexed)</h2>
+            
+            <h2 style="border-bottom: 2px solid var(--accent-light-blue); padding-bottom: 10px; margin-bottom: 30px;">Publications by Faculty Members/Students</h2>
             <div style="display: flex; flex-direction: column; gap: 20px; margin-bottom: 60px;">
-                <div class="glass-card" style="display: flex; gap: 20px; align-items: flex-start;">
-                    <i class="ph ph-article" style="font-size: 2rem; color: var(--primary);"></i>
-                    <div>
-                        <h4 style="margin-bottom: 10px;">AI-CardioCare: Artificial Intelligence based Device for Cardiac Health Monitoring</h4>
-                        <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 5px;">R. C. Joshi, J. S. Khan, M. K. Dutta | IEEE Transactions on Human-Machine Systems</p>
-                        <span style="font-size: 0.8rem; background: var(--primary); color: white; padding: 3px 8px; border-radius: 4px;">Impact Factor: 4.602</span>
-                    </div>
-                </div>
-                <div class="glass-card" style="display: flex; gap: 20px; align-items: flex-start;">
-                    <i class="ph ph-article" style="font-size: 2rem; color: var(--primary);"></i>
-                    <div>
-                        <h4 style="margin-bottom: 10px;">VisionCervix: Papanicolaou Cervical Smears Classification Using CNN-Vision</h4>
-                        <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 5px;">R. Maurya, N. Pandey, M. K. Dutta | Biomedical Signal Processing and Control (Elsevier)</p>
-                        <span style="font-size: 0.8rem; background: var(--primary); color: white; padding: 3px 8px; border-radius: 4px;">Impact Factor: 5.076</span>
-                    </div>
-                </div>
-                <div class="glass-card" style="display: flex; gap: 20px; align-items: flex-start;">
-                    <i class="ph ph-article" style="font-size: 2rem; color: var(--primary);"></i>
-                    <div>
-                        <h4 style="margin-bottom: 10px;">Optimization of Ascorbic Acid for Enhanced Electrocatalytic Activity</h4>
-                        <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 5px;">M. Gyanprakash, C.K. Rastogi, et al. | Energy & Fuels</p>
-                        <span style="font-size: 0.8rem; background: var(--primary); color: white; padding: 3px 8px; border-radius: 4px;">Impact Factor: 4.6</span>
-                    </div>
-                </div>
-            </div>
-
-            <h2 style="border-bottom: 2px solid var(--accent-light-blue); padding-bottom: 10px; margin-bottom: 30px;">Recent Patents</h2>
-            <div class="grid-2" style="margin-bottom: 50px;">
-                <div class="glass-card">
-                    <h4 style="margin-bottom: 10px;">Multi-Mode Real-time Object Detector for VIP</h4>
-                    <p style="font-size: 0.9rem; margin-bottom: 10px;">An obstacle aware assistive system for Visually Impaired Persons (VIP).</p>
-                    <p style="font-size: 0.85rem; color: #64748b;">Inventors: M.K. Dutta, R. C. Joshi, S. Yadav</p>
-                </div>
-                <div class="glass-card">
-                    <h4 style="margin-bottom: 10px;">Machine Learning for Cardiac Abnormality</h4>
-                    <p style="font-size: 0.9rem; margin-bottom: 10px;">System and method for automatic detection of abnormality from cardiac sound.</p>
-                    <p style="font-size: 0.85rem; color: #64748b;">Inventors: M.K. Dutta, A. Yadav, A. Kaushal</p>
-                </div>
+                $publicationsRaw
             </div>
 "@
 Generate-Page -Filename "publications.html" -Title "Publications & Patents" -Content $publicationsContent
