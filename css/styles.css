@@ -1259,17 +1259,25 @@ section {
 }
 
 @media (max-width: 768px) {
+  .nav-container {
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+
   .nav-links {
-    position: fixed;
-    top: 70px;
+    position: absolute;
+    top: 100%;
     left: -100%;
     width: 100%;
     height: calc(100vh - 70px);
     background-color: var(--primary);
     flex-direction: column;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    overflow-y: auto;
     transition: left var(--transition-smooth);
+    border-top: 1px solid rgba(255,255,255,0.1);
   }
   
   .nav-links.active {
@@ -1278,7 +1286,52 @@ section {
   
   .nav-links a {
     color: var(--secondary);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    padding: 12px 0;
+  }
+  
+  /* Mobile Dropdown Fixes */
+  .nav-links li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dropdown {
+    width: 100%;
+  }
+
+  .dropdown-content {
+    position: static !important;
+    box-shadow: none !important;
+    border: none !important;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    padding: 0 !important;
+    margin: 10px 0;
+    min-width: 100% !important;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .dropdown.mobile-active .dropdown-content {
+    display: flex !important;
+    flex-direction: column;
+    animation: fadeIn 0.3s;
+  }
+  
+  .dropdown-content a {
+    color: rgba(255,255,255,0.85) !important;
+    font-size: 0.95rem !important;
+    padding: 12px 0 !important;
+    width: 100%;
+  }
+
+  .dropdown-content a:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: var(--secondary) !important;
   }
   
   .mobile-menu-btn {
@@ -1286,16 +1339,17 @@ section {
   }
   
   .logo-container {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
   }
   
   .header-text h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   
   .header-text .subtitle {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
   
   .header-text .tagline {
