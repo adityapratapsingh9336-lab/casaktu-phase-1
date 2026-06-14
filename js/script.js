@@ -93,6 +93,29 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // --- 3.5 Mobile Dropdown Toggle ---
+    const dropBtns = document.querySelectorAll('.dropbtn');
+    dropBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            // Only apply click toggle logic on mobile screens
+            if (window.innerWidth <= 768) {
+                e.preventDefault(); // Prevent navigating to the main page link
+                
+                const parentDropdown = btn.closest('.dropdown');
+                
+                // Optional: Close other open dropdowns first for accordion effect
+                document.querySelectorAll('.dropdown.mobile-active').forEach(d => {
+                    if (d !== parentDropdown) {
+                        d.classList.remove('mobile-active');
+                    }
+                });
+
+                // Toggle current
+                parentDropdown.classList.toggle('mobile-active');
+            }
+        });
+    });
+
     // --- 4. Hero Slider (Home Page) ---
     const slides = document.querySelectorAll('.carousel-slide');
     const dotsContainer = document.querySelector('.carousel-dots');
