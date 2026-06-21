@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -118,26 +118,32 @@
         </div>
     </nav>
 
-    <!-- Hero Carousel Section -->
+    <!-- Hero Carousel Section (Phase 2) -->
     <section class="hero-carousel" id="hero">
         <div class="carousel-track">
-            <!-- 12 Placeholder Slides -->
-            <div class="carousel-slide" style="background-image: 'images/cas_b.png';"></div>
-            <div class="carousel-slide" style="background-image: 'images/classroom.jpeg';"></div>
-            <div class="carousel-slide" style="background-image: 'images/infra/Ai_server.jpeg';"></div>
-            <div class="carousel-slide" style="background-image: 'images/infra/GCL.jpeg';"></div>
-            <div class="carousel-slide" style="background-image: 'images/infra/cas_canteen.jpeg';"></div>
-            <div class="carousel-slide" style="background-image: 'images/infra/2.jpeg';"></div>
-            <div class="carousel-slide" style="background-image: url('https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');"></div>
-            <div class="carousel-slide" style="background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');"></div>
-            <div class="carousel-slide" style="background-image: url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');"></div>
-            <div class="carousel-slide" style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');"></div>
-            <div class="carousel-slide" style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');"></div>
-            <div class="carousel-slide" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');"></div>
+            <!-- Rotating Images -->
+            <div class="carousel-slide" style="background-image: url('images/cas_b.png');"></div>
+            <div class="carousel-slide" style="background-image: url('images/classroom.jpeg');"></div>
+            <div class="carousel-slide" style="background-image: url('images/infra/Ai_server.jpeg');"></div>
+            <div class="carousel-slide" style="background-image: url('images/infra/GCL.jpeg');"></div>
+            <div class="carousel-slide" style="background-image: url('images/infra/cas_canteen.jpeg');"></div>
+            <div class="carousel-slide" style="background-image: url('images/infra/2.jpeg');"></div>
+            <div class="carousel-slide" style="background-image: url('https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1920&q=80');"></div>
+            <div class="carousel-slide" style="background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80');"></div>
+            <div class="carousel-slide" style="background-image: url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1920&q=80');"></div>
+            <div class="carousel-slide" style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1920&q=80');"></div>
         </div>
         
         <div class="carousel-overlay">
-            <!-- Text and buttons removed per request -->
+            <div class="hero-content">
+                <h2 style="font-size: 3.5rem; font-weight: 700; margin-bottom: 10px;">Centre for Advanced Studies</h2>
+                <p style="font-size: 1.5rem; font-weight: 500; margin-bottom: 30px; letter-spacing: 2px;">Research • Innovation • Technology • Excellence</p>
+                <div class="cta-group">
+                    <a href="research.html" class="btn btn-primary">Explore Research</a>
+                    <a href="#academic-programs" class="btn btn-outline">Academic Programs</a>
+                    <a href="contact.html" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
         </div>
         
         <button class="carousel-arrow prev"><i class="ph ph-caret-left"></i></button>
@@ -145,287 +151,285 @@
         <div class="carousel-dots"></div>
     </section>
 
-    <!-- Quick Access Section -->
-    <section class="quick-access">
+    <!-- Quick Access Section (Phase 3) -->
+    <section class="quick-access" style="padding: 40px 0; background-color: var(--secondary);">
         <div class="container">
-            <div class="quick-grid">
-                <a href="admission.html" class="quick-card">
-                    <i class="ph ph-graduation-cap"></i>
-                    <span>Admissions</span>
+            <div class="grid-4" style="gap: 20px;">
+                <a href="research.html" class="cas-image-card" style="height: 200px;">
+                    <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=80" alt="Research" class="bg-img">
+                    <div class="cas-image-card-content">
+                        <h3>Research</h3>
+                        <p>Explore cutting-edge innovations</p>
+                    </div>
                 </a>
-                <a href="research.html" class="quick-card">
-                    <i class="ph ph-microscope"></i>
-                    <span>Research</span>
+                <a href="infrastructure.html" class="cas-image-card" style="height: 200px;">
+                    <img src="images/infra/Ai_server.jpeg" alt="Laboratories" class="bg-img">
+                    <div class="cas-image-card-content">
+                        <h3>Laboratories</h3>
+                        <p>State-of-the-art facilities</p>
+                    </div>
                 </a>
-                <a href="publications.html" class="quick-card">
-                    <i class="ph ph-books"></i>
-                    <span>Publications</span>
+                <a href="infrastructure.html#general" class="cas-image-card" style="height: 200px;">
+                    <img src="images/cas_b.png" alt="Infrastructure" class="bg-img">
+                    <div class="cas-image-card-content">
+                        <h3>Infrastructure</h3>
+                        <p>World-class campus</p>
+                    </div>
                 </a>
-                <a href="events.html" class="quick-card">
-                    <i class="ph ph-calendar-star"></i>
-                    <span>Events</span>
+                <a href="#academic-programs" class="cas-image-card" style="height: 200px;">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=600&q=80" alt="Academic Programs" class="bg-img">
+                    <div class="cas-image-card-content">
+                        <h3>Academic Programs</h3>
+                        <p>B.Tech, M.Tech, PhD</p>
+                    </div>
                 </a>
-                <a href="faculty.html" class="quick-card">
-                    <i class="ph ph-users-three"></i>
-                    <span>Faculty</span>
+                <a href="faculty.html" class="cas-image-card" style="height: 200px;">
+                    <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=600&q=80" alt="Faculty" class="bg-img">
+                    <div class="cas-image-card-content">
+                        <h3>Faculty</h3>
+                        <p>Meet our leading minds</p>
+                    </div>
                 </a>
-                <a href="contact.html" class="quick-card">
-                    <i class="ph ph-phone"></i>
-                    <span>Contact</span>
+                <a href="publications.html" class="cas-image-card" style="height: 200px;">
+                    <img src="https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=600&q=80" alt="Publications" class="bg-img">
+                    <div class="cas-image-card-content">
+                        <h3>Publications</h3>
+                        <p>Our research output</p>
+                    </div>
+                </a>
+                <a href="events.html" class="cas-image-card" style="height: 200px;">
+                    <img src="images/classroom.jpeg" alt="Workshops" class="bg-img">
+                    <div class="cas-image-card-content">
+                        <h3>Workshops & Webinars</h3>
+                        <p>Join technical events</p>
+                    </div>
+                </a>
+                <a href="alumni.html" class="cas-image-card" style="height: 200px;">
+                    <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=600&q=80" alt="Alumni" class="bg-img">
+                    <div class="cas-image-card-content">
+                        <h3>Alumni</h3>
+                        <p>Our global network</p>
+                    </div>
                 </a>
             </div>
         </div>
     </section>
 
-   
-   
-    <!-- About CAS -->
-    <section>
+    
+    <!-- Academic Programs (Phase 5) -->
+    <section id="academic-programs">
         <div class="container reveal-up">
             <div class="section-header">
-                <h2>About CAS</h2>
-                <p>Empowering the next generation of technological leaders through rigorous academics and breakthrough research.</p>
+                <h2>Academic Programs</h2>
+                <p>Comprehensive engineering and technology programs designed for future leaders.</p>
             </div>
             <div class="grid-3">
-                <div class="glass-card text-center about-card">
-                    <i class="ph ph-target feature-icon"></i>
-                    <h3>Our Mission</h3>
-                    <p>To be recognized as a globally renowned Centre of Excellence by fostering quality education and cutting-edge research with transformative societal impact.</p>
+                <div class="program-card" style="background-image: url('images/classroom.jpeg'); background-size: cover; background-position: center; position: relative; overflow: hidden; border: none;">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(10, 61, 98, 0.75); z-index: 1;"></div>
+                    <div style="position: relative; z-index: 2;">
+                        <div class="program-icon-wrapper" style="background-color: rgba(255,255,255,0.2); color: white;"><i class="ph ph-laptop"></i></div>
+                        <h3 style="color: white;">B.Tech Programs</h3>
+                        <p style="margin: 15px 0; color: #e2e8f0;">Undergraduate programs in emerging technologies including AI, Data Science, and IoT.</p>
+                        <a href="btech.html" class="btn btn-outline" style="color: white; border-color: white;">View Details</a>
+                    </div>
                 </div>
-                <div class="glass-card text-center about-card">
-                    <i class="ph ph-eye feature-icon"></i>
-                    <h3>Our Vision</h3>
-                    <p>To emerge as a globally recognized center of excellence in technological innovation, sustainable research, and advanced learning.</p>
+                <div class="program-card" style="background-image: url('images/infra/Ai_server.jpeg'); background-size: cover; background-position: center; position: relative; overflow: hidden; border: none;">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(10, 61, 98, 0.75); z-index: 1;"></div>
+                    <div style="position: relative; z-index: 2;">
+                        <div class="program-icon-wrapper" style="background-color: rgba(255,255,255,0.2); color: white;"><i class="ph ph-flask"></i></div>
+                        <h3 style="color: white;">M.Tech Programs</h3>
+                        <p style="margin: 15px 0; color: #e2e8f0;">Advanced postgraduate research and specialization in core engineering domains.</p>
+                        <a href="mtech.html" class="btn btn-outline" style="color: white; border-color: white;">View Details</a>
+                    </div>
                 </div>
-                <div class="glass-card text-center about-card">
-                    <i class="ph ph-list-checks feature-icon"></i>
-                    <h3>Our Objectives</h3>
-                    <p>To build strong industry-academia linkages, incubate startups, and cultivate an ecosystem of lifelong learning and ethical practices.</p>
+                <div class="program-card" style="background-image: url('images/cas_b.png'); background-size: cover; background-position: center; position: relative; overflow: hidden; border: none;">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(10, 61, 98, 0.75); z-index: 1;"></div>
+                    <div style="position: relative; z-index: 2;">
+                        <div class="program-icon-wrapper" style="background-color: rgba(255,255,255,0.2); color: white;"><i class="ph ph-student"></i></div>
+                        <h3 style="color: white;">PhD Programs</h3>
+                        <p style="margin: 15px 0; color: #e2e8f0;">Doctoral research opportunities in cutting-edge technological and scientific fields.</p>
+                        <a href="admission.html" class="btn btn-outline" style="color: white; border-color: white;">View Details</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Research Domains -->
+    <!-- Research Domains (Phase 6) -->
     <section class="bg-light">
         <div class="container reveal-up">
             <div class="section-header">
                 <h2>Research Domains</h2>
                 <p>Pioneering advancements across critical fields of applied science and technology.</p>
             </div>
-            <div class="grid-3">
+            <div class="grid-4">
                 <div class="domain-card glass-card">
-                    <i class="ph ph-brain"></i>
-                    <h3>Artificial Intelligence</h3>
-                    <p>Deep learning, computer vision, and cognitive systems.</p>
-                    <a href="research.html">Learn More &rarr;</a>
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=400&q=80" alt="AI" class="domain-card-img">
+                    <div class="domain-card-body">
+                        <i class="ph ph-brain"></i>
+                        <h3 style="font-size: 1.2rem;">Artificial Intelligence</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 15px; color: var(--text-light);">Deep learning & cognitive systems.</p>
+                        <a href="research.html" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary); padding: 5px 15px;">Read More</a>
+                    </div>
                 </div>
                 <div class="domain-card glass-card">
-                    <i class="ph ph-chart-scatter"></i>
-                    <h3>Machine Learning</h3>
-                    <p>Predictive analytics, neural networks, and pattern recognition.</p>
-                    <a href="research.html">Learn More &rarr;</a>
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee57d5?auto=format&fit=crop&w=400&q=80" alt="Machine Learning" class="domain-card-img">
+                    <div class="domain-card-body">
+                        <i class="ph ph-chart-scatter"></i>
+                        <h3 style="font-size: 1.2rem;">Machine Learning</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 15px; color: var(--text-light);">Predictive analytics & neural networks.</p>
+                        <a href="research.html" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary); padding: 5px 15px;">Read More</a>
+                    </div>
                 </div>
                 <div class="domain-card glass-card">
-                    <i class="ph ph-database"></i>
-                    <h3>Data Science</h3>
-                    <p>Big data processing, statistical modeling, and data visualization.</p>
-                    <a href="research.html">Learn More &rarr;</a>
+                    <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=400&q=80" alt="Cyber Security" class="domain-card-img">
+                    <div class="domain-card-body">
+                        <i class="ph ph-shield-check"></i>
+                        <h3 style="font-size: 1.2rem;">Cyber Security</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 15px; color: var(--text-light);">Cryptography & threat intelligence.</p>
+                        <a href="research.html" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary); padding: 5px 15px;">Read More</a>
+                    </div>
                 </div>
                 <div class="domain-card glass-card">
-                    <i class="ph ph-shield-check"></i>
-                    <h3>Cyber Security</h3>
-                    <p>Cryptography, network security, and threat intelligence.</p>
-                    <a href="research.html">Learn More &rarr;</a>
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=400&q=80" alt="Data Science" class="domain-card-img">
+                    <div class="domain-card-body">
+                        <i class="ph ph-database"></i>
+                        <h3 style="font-size: 1.2rem;">Data Science</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 15px; color: var(--text-light);">Big data processing & visualization.</p>
+                        <a href="research.html" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary); padding: 5px 15px;">Read More</a>
+                    </div>
                 </div>
                 <div class="domain-card glass-card">
-                    <i class="ph ph-cpu"></i>
-                    <h3>Electronics & VLSI</h3>
-                    <p>VLSI design, embedded systems, and microelectronics.</p>
-                    <a href="research.html">Learn More &rarr;</a>
+                    <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=400&q=80" alt="Robotics" class="domain-card-img">
+                    <div class="domain-card-body">
+                        <i class="ph ph-robot"></i>
+                        <h3 style="font-size: 1.2rem;">Robotics</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 15px; color: var(--text-light);">Autonomous systems & automation.</p>
+                        <a href="research.html" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary); padding: 5px 15px;">Read More</a>
+                    </div>
                 </div>
                 <div class="domain-card glass-card">
-                    <i class="ph ph-wifi-high"></i>
-                    <h3>Internet of Things</h3>
-                    <p>Sensor networks, smart cities, and connected devices.</p>
-                    <a href="research.html">Learn More &rarr;</a>
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80" alt="IoT" class="domain-card-img">
+                    <div class="domain-card-body">
+                        <i class="ph ph-wifi-high"></i>
+                        <h3 style="font-size: 1.2rem;">IoT</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 15px; color: var(--text-light);">Sensor networks & smart cities.</p>
+                        <a href="research.html" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary); padding: 5px 15px;">Read More</a>
+                    </div>
                 </div>
                 <div class="domain-card glass-card">
-                    <i class="ph ph-robot"></i>
-                    <h3>Robotics</h3>
-                    <p>Autonomous systems, automation, and kinematics.</p>
-                    <a href="research.html">Learn More &rarr;</a>
+                    <img src="https://images.unsplash.com/photo-1565106430482-8f6e1f022ce4?auto=format&fit=crop&w=400&q=80" alt="Advanced Manufacturing" class="domain-card-img">
+                    <div class="domain-card-body">
+                        <i class="ph ph-factory"></i>
+                        <h3 style="font-size: 1.2rem;">Advanced Mfg</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 15px; color: var(--text-light);">Smart factories & 3D printing.</p>
+                        <a href="research.html" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary); padding: 5px 15px;">Read More</a>
+                    </div>
                 </div>
                 <div class="domain-card glass-card">
-                    <i class="ph ph-solar-panel"></i>
-                    <h3>Renewable Energy</h3>
-                    <p>Solar tech, smart grids, and sustainable energy systems.</p>
-                    <a href="research.html">Learn More &rarr;</a>
-                </div>
-                <div class="domain-card glass-card">
-                    <i class="ph ph-rocket"></i>
-                    <h3>Emerging Tech</h3>
-                    <p>Quantum computing, blockchain technology, and AR/VR.</p>
-                    <a href="research.html">Learn More &rarr;</a>
+                    <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=400&q=80" alt="Energy Systems" class="domain-card-img">
+                    <div class="domain-card-body">
+                        <i class="ph ph-solar-panel"></i>
+                        <h3 style="font-size: 1.2rem;">Energy Systems</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 15px; color: var(--text-light);">Renewable tech & smart grids.</p>
+                        <a href="research.html" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary); padding: 5px 15px;">Read More</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Campus & Infrastructure Gallery -->
+    <!-- Laboratories & Infrastructure (Phase 7) -->
     <section>
         <div class="container reveal-up">
             <div class="section-header">
-                <h2>Campus & Infrastructure</h2>
+                <h2>Laboratories & Infrastructure</h2>
                 <p>State-of-the-art facilities designed to foster a rich environment for research and innovation.</p>
             </div>
-            <div class="masonry-gallery">
-                <img src="images/classroom.jpeg">
-                <img src="images/cas_b.png">
-                <img src="images/infra/cas_canteen.jpeg">
-                <img src="images/infra/CBS lab.jpeg" class="gallery-item">
-                <img src="images/infra/Seminnar_hall.jpeg" alt="Seminar Hall" class="gallery-item">
-                <img src="images/infra/Robotic-4.jpeg" alt="Collaborative Space" class="gallery-item">
-                <img src="images/infra/Ai_server.jpeg" alt="Innovation Center" class="gallery-item">
-                <img src="images/infra/GCL.jpeg" alt="Workshop" class="gallery-item">
-                <img src="images/infra/moocs.jpg" alt="Conference" class="gallery-item">
-                <img src="images/infra/iot.jpg" alt="Coding Lab" class="gallery-item">
-                <img src="images/infra/TT.jpeg" alt="Students Group" class="gallery-item">
-                <img src="images/infra/class.jpeg" alt="Discussion" class="gallery-item">
+            <div class="grid-3">
+                <a href="infrastructure.html#labs" class="cas-image-card" style="height: 250px;">
+                    <img src="images/infra/Ai_server.jpeg" alt="Research Laboratories" class="bg-img">
+                    <div class="cas-image-card-content">
+                        <h3>Research Laboratories</h3>
+                        <p>Specialized labs for advanced study.</p>
+                    </div>
+                </a>
+                <a href="infrastructure.html#labs" class="cas-image-card" style="height: 250px;">
+                    <img src="images/infra/GCL.jpeg" alt="Computer Laboratories" class="bg-img">
+                    <div class="cas-image-card-content">
+                        <h3>Computer Laboratories</h3>
+                        <p>High-performance computing clusters.</p>
+                    </div>
+                </a>
+                <a href="infrastructure.html#labs" class="cas-image-card" style="height: 250px;">
+                    <img src="images/infra/Robotic-4.jpeg" alt="Innovation Labs" class="bg-img">
+                    <div class="cas-image-card-content">
+                        <h3>Innovation Labs</h3>
+                        <p>Collaborative spaces for incubation.</p>
+                    </div>
+                </a>
+                <a href="infrastructure.html#general" class="cas-image-card" style="height: 250px;">
+                    <img src="images/classroom.jpeg" alt="Smart Classrooms" class="bg-img">
+                    <div class="cas-image-card-content">
+                        <h3>Smart Classrooms</h3>
+                        <p>Technology-enabled learning environments.</p>
+                    </div>
+                </a>
+                <a href="infrastructure.html#general" class="cas-image-card" style="height: 250px;">
+                    <img src="images/infra/Seminnar_hall.jpeg" alt="Seminar Halls" class="bg-img">
+                    <div class="cas-image-card-content">
+                        <h3>Seminar Halls</h3>
+                        <p>For conferences and guest lectures.</p>
+                    </div>
+                </a>
+                <a href="infrastructure.html#library" class="cas-image-card" style="height: 250px;">
+                    <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=600&q=80" alt="Library" class="bg-img">
+                    <div class="cas-image-card-content">
+                        <h3>Central Library</h3>
+                        <p>Extensive digital and physical resources.</p>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Achievements Section -->
+    <!-- Statistics Dashboard (Phase 8) -->
     <section class="stats-section">
         <div class="container reveal-up">
             <div class="grid-3 text-center">
                 <div class="stat-item">
-                    <div class="stat-number counter" data-target="500">0</div>
-                    <div class="stat-label">Students Enrolled</div>
+                    <div class="stat-number counter" data-target="1500">0</div>
+                    <div class="stat-label">Students</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number counter" data-target="150">0</div>
-                    <div class="stat-label">Research Papers</div>
+                    <div class="stat-number counter" data-target="120">0</div>
+                    <div class="stat-label">Faculty</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number counter" data-target="45">0</div>
-                    <div class="stat-label">Faculty Members</div>
+                    <div class="stat-number counter" data-target="450">0</div>
+                    <div class="stat-label">Publications</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number counter" data-target="60">0</div>
-                    <div class="stat-label">PhD Scholars</div>
+                    <div class="stat-number counter" data-target="65">0</div>
+                    <div class="stat-label">Research Projects</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number counter" data-target="25">0</div>
-                    <div class="stat-label">Industry Collaborations</div>
+                    <div class="stat-number counter" data-target="85">0</div>
+                    <div class="stat-label">Workshops Conducted</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-number counter" data-target="40">0</div>
-                    <div class="stat-label">Research Projects</div>
+                    <div class="stat-label">Collaborations</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Latest News & Announcements -->
+    <!-- Publications Showcase (Phase 9) -->
     <section class="bg-light">
         <div class="container reveal-up">
             <div class="section-header">
-                <h2>Latest Updates & Announcements</h2>
-                <p>Stay informed about academic notices, research breakthroughs, and institutional updates.</p>
-            </div>
-            
-            <div class="news-marquee-wrapper">
-                <div class="news-marquee">
-                    <div class="news-card glass-card">
-                        <span class="news-date">March 15, 2026</span>
-                        <h4>Admission Open for PhD Programs</h4>
-                        <p>Applications are now open for the Even Semester 2026. Apply before the deadline.</p>
-                    </div>
-                    <div class="news-card glass-card">
-                        <span class="news-date">March 10, 2026</span>
-                        <h4>Schedule for End Semester Practical Exams</h4>
-                        <p>The updated schedule for M.Tech practical examinations has been released.</p>
-                    </div>
-                    <div class="news-card glass-card">
-                        <span class="news-date">March 05, 2026</span>
-                        <h4>Call for Papers: ICAC 2026</h4>
-                        <p>Submit your research for the International Conference on Advanced Computing.</p>
-                    </div>
-                    <div class="news-card glass-card">
-                        <span class="news-date">Feb 28, 2026</span>
-                        <h4>New AI Research Lab Inaugurated</h4>
-                        <p>State-of-the-art AI infrastructure inaugurated by the Hon. Vice Chancellor.</p>
-                    </div>
-                    <div class="news-card glass-card">
-                        <span class="news-date">Feb 20, 2026</span>
-                        <h4>Hackathon Winners Announced</h4>
-                        <p>CAS students secure first prize in the National Level Hackathon 2026.</p>
-                    </div>
-                    <!-- Duplicates for seamless looping -->
-                    <div class="news-card glass-card">
-                        <span class="news-date">March 15, 2026</span>
-                        <h4>Admission Open for PhD Programs</h4>
-                        <p>Applications are now open for the Even Semester 2026. Apply before the deadline.</p>
-                    </div>
-                    <div class="news-card glass-card">
-                        <span class="news-date">March 10, 2026</span>
-                        <h4>Schedule for End Semester Practical Exams</h4>
-                        <p>The updated schedule for M.Tech practical examinations has been released.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Events & Workshops -->
-    <section>
-        <div class="container reveal-up">
-            <div class="section-header">
-                <h2>Events, Workshops & Seminars</h2>
-                <p>Participate in technical events, guest lectures, and collaborative workshops.</p>
-            </div>
-            <div class="grid-3">
-                <div class="event-card glass-card">
-                    <div class="event-image" style="background-image: url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=600&q=80');"></div>
-                    <div class="event-details">
-                        <span class="event-tag">Conference</span>
-                        <h3>International Conference on Quantum Computing</h3>
-                        <p><i class="ph ph-calendar"></i> April 10-12, 2026</p>
-                        <p><i class="ph ph-map-pin"></i> CAS Main Auditorium</p>
-                    </div>
-                </div>
-                <div class="event-card glass-card">
-                    <div class="event-image" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80');"></div>
-                    <div class="event-details">
-                        <span class="event-tag">Workshop</span>
-                        <h3>Hands-on Workshop on Deep Learning Frameworks</h3>
-                        <p><i class="ph ph-calendar"></i> March 25, 2026</p>
-                        <p><i class="ph ph-map-pin"></i> AI Research Lab</p>
-                    </div>
-                </div>
-                <div class="event-card glass-card">
-                    <div class="event-image" style="background-image: url('https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=600&q=80');"></div>
-                    <div class="event-details">
-                        <span class="event-tag">Guest Lecture</span>
-                        <h3>The Future of Cyber Security in IoT</h3>
-                        <p><i class="ph ph-calendar"></i> March 18, 2026</p>
-                        <p><i class="ph ph-map-pin"></i> Virtual Mode</p>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center" style="margin-top: 40px;">
-                <a href="events.html" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary);">View Event Calendar</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Publications -->
-    <section class="bg-light">
-        <div class="container reveal-up">
-            <div class="section-header">
-                <h2>Publications & Patents</h2>
+                <h2>Publications Showcase</h2>
                 <p>Highlighting our contribution to the global scientific community.</p>
             </div>
             <div class="grid-2">
@@ -454,80 +458,265 @@
                     </div>
                 </div>
                 <div class="publication-card glass-card">
-                    <div class="pub-icon"><i class="ph ph-file-pdf"></i></div>
+                    <div class="pub-icon"><i class="ph ph-book-open"></i></div>
                     <div class="pub-info">
                         <h4>Advances in Cryptographic Hash Functions</h4>
-                        <p class="pub-meta">Published in: Journal of Cyber Security | 2025</p>
+                        <p class="pub-meta">Journal of Cyber Security | 2025</p>
                         <p class="pub-authors">Authors: Dr. P. Singh</p>
                     </div>
                 </div>
             </div>
             <div class="text-center" style="margin-top: 40px;">
-                <a href="publications.html" class="btn btn-primary">Browse All Publications</a>
+                <a href="publications.html" class="btn btn-primary">View All Publications</a>
             </div>
         </div>
     </section>
 
-    <!-- Recruiters & Collaborations -->
-    <section class="recruiters-section bg-light">
+    <!-- News & Announcements (Phase 10 - Auto-scrolling Ticker) -->
+    <section>
         <div class="container reveal-up">
-            <div class="section-header">
-                <h2>Our Partners & Collaborators</h2>
-                <p>Strong industry linkages and global academic partnerships.</p>
+            <div class="section-header" style="position: relative;">
+                <h2>News & Announcements</h2>
+                <p>Stay informed about academic notices, research breakthroughs, and institutional updates.</p>
+                
+                <!-- Ticker Control Panel -->
+                <div class="ticker-control-panel">
+                    <button class="ticker-btn" id="ticker-pause" title="Pause Scrolling"><i class="ph ph-pause"></i></button>
+                    <button class="ticker-btn" id="ticker-play" title="Resume Scrolling" style="display: none;"><i class="ph ph-play"></i></button>
+                    <a href="news.html" class="ticker-btn-text">View All</a>
+                </div>
             </div>
-            <div class="logo-carousel-wrapper">
-                <div class="logo-carousel-track">
-                    <!-- Placeholder Logos using UI Faces or simple text blocks, here we use generic brand placeholders -->
-                    <div class="partner-logo"><span>Microsoft Research</span></div>
-                    <div class="partner-logo"><span>Google Cloud</span></div>
-                    <div class="partner-logo"><span>IBM Academic</span></div>
-                    <div class="partner-logo"><span>TCS Innovation</span></div>
-                    <div class="partner-logo"><span>Infosys Center</span></div>
-                    <div class="partner-logo"><span>DRDO</span></div>
-                    <div class="partner-logo"><span>ISRO</span></div>
-                    <!-- Duplicate for infinite scroll -->
-                    <div class="partner-logo"><span>Microsoft Research</span></div>
-                    <div class="partner-logo"><span>Google Cloud</span></div>
-                    <div class="partner-logo"><span>IBM Academic</span></div>
-                    <div class="partner-logo"><span>TCS Innovation</span></div>
-                    <div class="partner-logo"><span>Infosys Center</span></div>
-                    <div class="partner-logo"><span>DRDO</span></div>
-                    <div class="partner-logo"><span>ISRO</span></div>
+            
+            <div class="two-column-layout">
+                <!-- Left: Latest News -->
+                <div class="ticker-container">
+                    <h3 style="margin-bottom: 25px; border-bottom: 2px solid var(--accent-light-blue); padding-bottom: 10px; display: inline-block;">Latest News</h3>
+                    
+                    <div class="ticker-wrapper">
+                        <div class="ticker-track" id="news-track">
+                            <!-- News Items Set 1 -->
+                            <div class="news-item">
+                                <img src="images/infra/Ai_server.jpeg" alt="News" class="news-thumb">
+                                <div class="news-content">
+                                    <span class="news-badge new">New</span>
+                                    <span class="date">March 15, 2026</span>
+                                    <h4>New AI Research Lab Inaugurated</h4>
+                                    <a href="#" class="read-more">Read More &rarr;</a>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <img src="images/classroom.jpeg" alt="News" class="news-thumb">
+                                <div class="news-content">
+                                    <span class="news-badge new">New</span>
+                                    <span class="date">March 10, 2026</span>
+                                    <h4>Hackathon Winners Announced</h4>
+                                    <a href="#" class="read-more">Read More &rarr;</a>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <img src="images/infra/GCL.jpeg" alt="News" class="news-thumb">
+                                <div class="news-content">
+                                    <span class="date">Feb 28, 2026</span>
+                                    <h4>Industry Partnership with Microsoft</h4>
+                                    <a href="#" class="read-more">Read More &rarr;</a>
+                                </div>
+                            </div>
+                            
+                            <!-- Duplicate News Items Set 2 for Infinite Scroll -->
+                            <div class="news-item">
+                                <img src="images/infra/Ai_server.jpeg" alt="News" class="news-thumb">
+                                <div class="news-content">
+                                    <span class="news-badge new">New</span>
+                                    <span class="date">March 15, 2026</span>
+                                    <h4>New AI Research Lab Inaugurated</h4>
+                                    <a href="#" class="read-more">Read More &rarr;</a>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <img src="images/classroom.jpeg" alt="News" class="news-thumb">
+                                <div class="news-content">
+                                    <span class="news-badge new">New</span>
+                                    <span class="date">March 10, 2026</span>
+                                    <h4>Hackathon Winners Announced</h4>
+                                    <a href="#" class="read-more">Read More &rarr;</a>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <img src="images/infra/GCL.jpeg" alt="News" class="news-thumb">
+                                <div class="news-content">
+                                    <span class="date">Feb 28, 2026</span>
+                                    <h4>Industry Partnership with Microsoft</h4>
+                                    <a href="#" class="read-more">Read More &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right: Announcements -->
+                <div class="ticker-container">
+                    <h3 style="margin-bottom: 25px; border-bottom: 2px solid var(--accent-light-blue); padding-bottom: 10px; display: inline-block;">Announcements</h3>
+                    
+                    <div class="ticker-wrapper">
+                        <div class="ticker-track" id="announcements-track" style="animation-duration: 35s;">
+                            <!-- Announcements Set 1 -->
+                            <div class="news-item">
+                                <div class="news-content" style="padding-left: 10px;">
+                                    <span class="news-badge priority">Priority</span>
+                                    <span class="date">March 20, 2026</span>
+                                    <h4>Admission Open for PhD Programs</h4>
+                                    <p style="font-size: 0.9rem; margin-top: 5px; color: var(--text-light);">Applications are now open for the Even Semester 2026. Apply before the deadline.</p>
+                                    <a href="#" class="read-more" style="display: inline-block; margin-top: 5px;">Read More &rarr;</a>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="news-content" style="padding-left: 10px;">
+                                    <span class="date">March 18, 2026</span>
+                                    <h4>Schedule for End Semester Practical Exams</h4>
+                                    <p style="font-size: 0.9rem; margin-top: 5px; color: var(--text-light);">The updated schedule for M.Tech practical examinations has been released.</p>
+                                    <a href="#" class="read-more" style="display: inline-block; margin-top: 5px;">Read More &rarr;</a>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="news-content" style="padding-left: 10px;">
+                                    <span class="date">March 12, 2026</span>
+                                    <h4>Call for Papers: ICAC 2026</h4>
+                                    <p style="font-size: 0.9rem; margin-top: 5px; color: var(--text-light);">Submit your research for the International Conference on Advanced Computing.</p>
+                                    <a href="#" class="read-more" style="display: inline-block; margin-top: 5px;">Read More &rarr;</a>
+                                </div>
+                            </div>
+                            
+                            <!-- Duplicate Announcements Set 2 for Infinite Scroll -->
+                            <div class="news-item">
+                                <div class="news-content" style="padding-left: 10px;">
+                                    <span class="news-badge priority">Priority</span>
+                                    <span class="date">March 20, 2026</span>
+                                    <h4>Admission Open for PhD Programs</h4>
+                                    <p style="font-size: 0.9rem; margin-top: 5px; color: var(--text-light);">Applications are now open for the Even Semester 2026. Apply before the deadline.</p>
+                                    <a href="#" class="read-more" style="display: inline-block; margin-top: 5px;">Read More &rarr;</a>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="news-content" style="padding-left: 10px;">
+                                    <span class="date">March 18, 2026</span>
+                                    <h4>Schedule for End Semester Practical Exams</h4>
+                                    <p style="font-size: 0.9rem; margin-top: 5px; color: var(--text-light);">The updated schedule for M.Tech practical examinations has been released.</p>
+                                    <a href="#" class="read-more" style="display: inline-block; margin-top: 5px;">Read More &rarr;</a>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="news-content" style="padding-left: 10px;">
+                                    <span class="date">March 12, 2026</span>
+                                    <h4>Call for Papers: ICAC 2026</h4>
+                                    <p style="font-size: 0.9rem; margin-top: 5px; color: var(--text-light);">Submit your research for the International Conference on Advanced Computing.</p>
+                                    <a href="#" class="read-more" style="display: inline-block; margin-top: 5px;">Read More &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials -->
+    <!-- Events, Workshops & Webinars (Phase 11) -->
+    <section class="bg-light">
+        <div class="container reveal-up">
+            <div class="section-header">
+                <h2>Events, Workshops & Webinars</h2>
+                <p>Participate in technical events, guest lectures, and collaborative workshops.</p>
+            </div>
+            <div class="horizontal-carousel">
+                <div class="event-card glass-card">
+                    <div class="event-image" style="background-image: url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="event-details">
+                        <span class="event-tag">Conference</span>
+                        <h3>International Conference on Quantum Computing</h3>
+                        <p><i class="ph ph-calendar"></i> April 10-12, 2026</p>
+                        <p><i class="ph ph-map-pin"></i> CAS Main Auditorium</p>
+                    </div>
+                </div>
+                <div class="event-card glass-card">
+                    <div class="event-image" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="event-details">
+                        <span class="event-tag">Workshop</span>
+                        <h3>Hands-on Workshop on Deep Learning Frameworks</h3>
+                        <p><i class="ph ph-calendar"></i> March 25, 2026</p>
+                        <p><i class="ph ph-map-pin"></i> AI Research Lab</p>
+                    </div>
+                </div>
+                <div class="event-card glass-card">
+                    <div class="event-image" style="background-image: url('https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="event-details">
+                        <span class="event-tag">Guest Lecture</span>
+                        <h3>The Future of Cyber Security in IoT</h3>
+                        <p><i class="ph ph-calendar"></i> March 18, 2026</p>
+                        <p><i class="ph ph-map-pin"></i> Virtual Mode</p>
+                    </div>
+                </div>
+                <div class="event-card glass-card">
+                    <div class="event-image" style="background-image: url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="event-details">
+                        <span class="event-tag">Webinar</span>
+                        <h3>Blockchain in Supply Chain Management</h3>
+                        <p><i class="ph ph-calendar"></i> March 10, 2026</p>
+                        <p><i class="ph ph-map-pin"></i> Zoom Webinar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 20px;">
+                <a href="events.html" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary);">View Event Calendar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Highlights (Phase 12) -->
     <section>
         <div class="container reveal-up">
             <div class="section-header">
-                <h2>Voices of CAS</h2>
-                <p>Hear from our students, alumni, and researchers.</p>
+                <h2>Faculty Highlights</h2>
+                <p>Meet the leaders and innovators driving our research and academic excellence.</p>
             </div>
             <div class="grid-3">
-                <div class="testimonial-card glass-card">
-                    <i class="ph ph-quotes" style="font-size: 2rem; color: var(--accent-light-blue); opacity: 0.5;"></i>
-                    <p class="test-text">"The research facilities at CAS are world-class. My experience working in the AI lab has completely transformed my approach to problem-solving and prepared me for the industry."</p>
-                    <div class="test-author">
-                        <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80" alt="Student">
-                        <div>
-                            <h4>Rahul Khanna</h4>
-                            <span>M.Tech Scholar (AI)</span>
-                        </div>
+                <div class="glass-card faculty-card">
+                    <img src="images/cas_director.jpg" alt="Prof. M. K. Dutta" class="faculty-img">
+                    <div class="faculty-info">
+                        <h4>Prof. M. K. Dutta</h4>
+                        <p style="color: var(--primary); font-weight: 600; margin-bottom: 5px;">Director</p>
+                        <p style="font-size: 0.85rem; color: var(--text-light);">Research Area: Image Processing & AI</p>
                     </div>
                 </div>
-                <div class="testimonial-card glass-card">
-                    <i class="ph ph-quotes" style="font-size: 2rem; color: var(--accent-light-blue); opacity: 0.5;"></i>
-                    <p class="test-text">"The faculty support during my Ph.D. has been incredible. The collaborative environment and funding opportunities allowed me to successfully publish in top-tier international journals."</p>
-                    <div class="test-author">
-                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=100&q=80" alt="Researcher">
-                        <div>
-                            <h4>Priya Das</h4>
-                            <span>Ph.D. Researcher (Cyber Security)</span>
-                        </div>
+                <div class="glass-card faculty-card">
+                    <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&w=400&q=80" alt="Dr. S. Gupta" class="faculty-img">
+                    <div class="faculty-info">
+                        <h4>Dr. S. Gupta</h4>
+                        <p style="color: var(--primary); font-weight: 600; margin-bottom: 5px;">M.Tech Coordinator</p>
+                        <p style="font-size: 0.85rem; color: var(--text-light);">Research Area: Data Science & ML</p>
                     </div>
                 </div>
+                <div class="glass-card faculty-card">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80" alt="Dr. R. Verma" class="faculty-img">
+                    <div class="faculty-info">
+                        <h4>Dr. R. Verma</h4>
+                        <p style="color: var(--primary); font-weight: 600; margin-bottom: 5px;">Key Faculty Member</p>
+                        <p style="font-size: 0.85rem; color: var(--text-light);">Research Area: Cyber Security & IoT</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 40px;">
+                <a href="faculty.html" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary);">View All Faculty</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alumni Highlights (Phase 13) -->
+    <section class="bg-light">
+        <div class="container reveal-up">
+            <div class="section-header">
+                <h2>Alumni Highlights</h2>
+                <p>Celebrating the success stories and achievements of our global alumni network.</p>
+            </div>
+            <div class="horizontal-carousel">
                 <div class="testimonial-card glass-card">
                     <i class="ph ph-quotes" style="font-size: 2rem; color: var(--accent-light-blue); opacity: 0.5;"></i>
                     <p class="test-text">"CAS provided the perfect launchpad for my career. The industry partnerships and rigorous curriculum gave me an edge, helping me secure a role at a leading tech firm immediately after graduation."</p>
@@ -535,10 +724,125 @@
                         <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?auto=format&fit=crop&w=100&q=80" alt="Alumni">
                         <div>
                             <h4>Amit Patel</h4>
-                            <span>Alumni (Data Science)</span>
+                            <span>Senior Data Scientist</span>
                         </div>
                     </div>
                 </div>
+                <div class="testimonial-card glass-card">
+                    <i class="ph ph-medal" style="font-size: 2rem; color: var(--accent-light-blue); opacity: 0.5;"></i>
+                    <h4 style="margin: 15px 0 10px;">National Innovator Award 2025</h4>
+                    <p class="test-text" style="margin-bottom: 20px;">Secured first place in the national smart India hackathon for developing a low-cost AI healthcare diagnostic tool.</p>
+                    <div class="test-author">
+                        <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80" alt="Alumni">
+                        <div>
+                            <h4>Rahul Khanna</h4>
+                            <span>AI Researcher</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-card">
+                    <i class="ph ph-quotes" style="font-size: 2rem; color: var(--accent-light-blue); opacity: 0.5;"></i>
+                    <p class="test-text">"The collaborative environment and funding opportunities allowed me to successfully publish in top-tier international journals and secure a post-doc position."</p>
+                    <div class="test-author">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=100&q=80" alt="Researcher">
+                        <div>
+                            <h4>Priya Das</h4>
+                            <span>Post-Doctoral Fellow</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 20px;">
+                <a href="alumni.html" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary);">View Alumni Network</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collaborations & Partners (Phase 14) -->
+    <section class="recruiters-section">
+        <div class="container reveal-up">
+            <div class="section-header">
+                <h2>Collaborations & Partners</h2>
+                <p>Strong linkages across industry, research organizations, and academic institutions.</p>
+            </div>
+            
+            <h3 style="text-align: center; margin-bottom: 20px; font-size: 1.2rem; color: var(--text-light);">Industry Partners</h3>
+            <div class="logo-carousel-wrapper" style="margin-bottom: 40px;">
+                <div class="logo-carousel-track">
+                    <div class="partner-logo"><span>Microsoft</span></div>
+                    <div class="partner-logo"><span>Google Cloud</span></div>
+                    <div class="partner-logo"><span>IBM Academic</span></div>
+                    <div class="partner-logo"><span>TCS Innovation</span></div>
+                    <div class="partner-logo"><span>Infosys Center</span></div>
+                    <!-- Duplicate for infinite scroll -->
+                    <div class="partner-logo"><span>Microsoft</span></div>
+                    <div class="partner-logo"><span>Google Cloud</span></div>
+                    <div class="partner-logo"><span>IBM Academic</span></div>
+                    <div class="partner-logo"><span>TCS Innovation</span></div>
+                    <div class="partner-logo"><span>Infosys Center</span></div>
+                </div>
+            </div>
+
+            <h3 style="text-align: center; margin-bottom: 20px; font-size: 1.2rem; color: var(--text-light);">Research & Academic Partners</h3>
+            <div class="logo-carousel-wrapper">
+                <div class="logo-carousel-track" style="animation-direction: reverse;">
+                    <div class="partner-logo"><span>DRDO</span></div>
+                    <div class="partner-logo"><span>ISRO</span></div>
+                    <div class="partner-logo"><span>IIT Kanpur</span></div>
+                    <div class="partner-logo"><span>NIT Allahabad</span></div>
+                    <div class="partner-logo"><span>CSIR</span></div>
+                    <!-- Duplicate for infinite scroll -->
+                    <div class="partner-logo"><span>DRDO</span></div>
+                    <div class="partner-logo"><span>ISRO</span></div>
+                    <div class="partner-logo"><span>IIT Kanpur</span></div>
+                    <div class="partner-logo"><span>NIT Allahabad</span></div>
+                    <div class="partner-logo"><span>CSIR</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Gallery (Phase 15) -->
+    <section class="bg-light">
+        <div class="container reveal-up">
+            <div class="section-header">
+                <h2>Campus Gallery</h2>
+                <p>A visual journey through our laboratories, events, and vibrant campus life.</p>
+            </div>
+            
+            <div class="featured-gallery">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="featured-gallery-card">
+                    <img src="images/cas_b.png" alt="Campus Tour">
+                    <div class="overlay"></div>
+                    <div class="play-icon"><i class="ph ph-play"></i></div>
+                    <div class="card-title">Campus Tour</div>
+                </a>
+                <div class="featured-gallery-card" style="cursor: default;">
+                    <img src="images/infra/Ai_server.jpeg" alt="Research Facilities">
+                    <div class="overlay"></div>
+                    <div class="card-title">Research Facilities</div>
+                </div>
+            </div>
+
+            <div class="masonry-gallery" style="margin-top: 30px;">
+                <img src="images/classroom.jpeg" alt="Smart Classroom">
+                <img src="images/cas_b.png" alt="Campus Building">
+                <img src="images/infra/cas_canteen.jpeg" alt="Campus Canteen">
+                <img src="images/infra/CBS lab.jpeg" alt="CBS Lab">
+                <img src="images/infra/Seminnar_hall.jpeg" alt="Seminar Hall">
+                <img src="images/infra/Robotic-4.jpeg" alt="Robotics Lab">
+                <img src="images/infra/Ai_server.jpeg" alt="AI Server Room">
+                <img src="images/infra/GCL.jpeg" alt="Computer Lab">
+                <img src="images/infra/moocs.jpg" alt="MOOCs Studio">
+                <img src="images/infra/iot.jpg" alt="IoT Lab">
+                <img src="images/infra/TT.jpeg" alt="Student Activities">
+                <img src="images/infra/class.jpeg" alt="Discussion">
+                <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=400&q=80" alt="Conference">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=400&q=80" alt="Workshop">
+                <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=400&q=80" alt="Guest Lecture">
+            </div>
+            <div class="text-center" style="margin-top: 40px;">
+                <a href="infrastructure.html#tour" class="btn btn-primary">Take a Virtual Tour</a>
             </div>
         </div>
     </section>
@@ -596,6 +900,31 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script>
+        // Ticker Control Panel Logic
+        document.addEventListener('DOMContentLoaded', () => {
+            const pauseBtn = document.getElementById('ticker-pause');
+            const playBtn = document.getElementById('ticker-play');
+            const newsTrack = document.getElementById('news-track');
+            const announcementsTrack = document.getElementById('announcements-track');
+
+            if (pauseBtn && playBtn && newsTrack && announcementsTrack) {
+                pauseBtn.addEventListener('click', () => {
+                    newsTrack.classList.add('paused');
+                    announcementsTrack.classList.add('paused');
+                    pauseBtn.style.display = 'none';
+                    playBtn.style.display = 'flex';
+                });
+
+                playBtn.addEventListener('click', () => {
+                    newsTrack.classList.remove('paused');
+                    announcementsTrack.classList.remove('paused');
+                    playBtn.style.display = 'none';
+                    pauseBtn.style.display = 'flex';
+                });
+            }
+        });
+    </script>
 </body>
 </html>
 
