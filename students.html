@@ -37,17 +37,30 @@
     </header>
 
     <!-- Navigation Bar -->
-    <nav class="navbar">
+     <nav class="navbar">
         <div class="container nav-container">
             <button class="mobile-menu-btn">
                 <i class="ph ph-list"></i>
             </button>
             <ul class="nav-links">
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="faculty.html">PEOPLE</a></li>
+                 <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">people <i class="ph ph-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">Faculty <i class="ph ph-caret-down"></i></a>
+                            <div class="dropdown-content">
+                                <a href="B.Tech_F.html">B.Tech</a>
+                                <a href="M.Tech_F.html">M.Tech</a>
+                                <a href="PhD_F.html">PhD</a>
+                            </div>
+                        </li>
+                        <a href="staff.html">Staff</a>
+                    </div>
+                </li>
                 
                 <li class="dropdown">
-                    <a href="about.html" class="dropbtn">ABOUT <i class="ph ph-caret-down"></i></a>
+                    <a href="about.html" class="dropbtn active">ABOUT <i class="ph ph-caret-down"></i></a>
                     <div class="dropdown-content">
                         <a href="about.html#overview">Overview</a>
                         <a href="about.html#director">Director's Message</a>
@@ -60,8 +73,7 @@
                     <div class="dropdown-content">
                         <a href="btech.html">B.Tech</a>
                         <a href="mtech.html">M.Tech</a>
-                        <a href="bpharma.html">B.Pharma</a>
-                        <a href="mba.html">MBA</a>
+                        <a href="PhD.html">PhD</a>
                     </div>
                 </li>
                 
@@ -87,7 +99,7 @@
                 </li>
                 
                 <li class="dropdown">
-                    <a href="students.html" class="dropbtn active">STUDENT'S CORNER <i class="ph ph-caret-down"></i></a>
+                    <a href="students.html" class="dropbtn">STUDENT'S CORNER <i class="ph ph-caret-down"></i></a>
                     <div class="dropdown-content">
                         <a href="activities.html">Activities</a>
                         <a href="alumni.html">Alumni</a>
@@ -107,8 +119,7 @@
             </ul>
             <button class="theme-toggle" aria-label="Toggle Dark Mode"><i class="ph ph-moon"></i></button>
         </div>
-    </nav>
-
+   </nav>
     <!-- Page Header -->
     <section class="page-header">
         <div class="container">
